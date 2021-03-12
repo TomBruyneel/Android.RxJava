@@ -1,0 +1,10 @@
+﻿<metadata>
+  <attr path=".//method[@name='subscribeActual']" name="visibility">public</attr>
+  <attr path=".//method[@name='assertSubscribed']" name="visibility">public</attr>
+  <attr path=".//method[@name='dispose']" name="visibility">public</attr>
+  <attr path=".//method[@name='isDisposed']" name="visibility">public</attr>
+
+  <remove-node path="/api/package[contains(@name, 'internal')]" />
+
+  <remove-node path="//method[@name='assertSubscribed']" />
+</metadata>
